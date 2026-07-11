@@ -8,7 +8,8 @@ site-hypnose/
 ├── index.html
 └── assets/
     ├── style.css
-    └── logo-hybou.svg
+    ├── logo-hybou.png
+    └── logo-hybou-square.png
 ```
 
 ---
