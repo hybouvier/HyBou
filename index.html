@@ -1,249 +1,34 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Hypnose by HyBou — Jérémy Bouvier, hypnotiseur</title>
-<meta name="description" content="Jérémy Bouvier, hypnotiseur : spectacles d'hypnose sur scène, animations découverte, street-hypnose, auto-hypnose et formations. Avec Kimi Bouvier, le plus jeune hypnotiseur de spectacle sur scène.">
-<link rel="canonical" href="https://www.hybou.com/">
-<meta property="og:title" content="Hypnose by HyBou — Jérémy Bouvier, hypnotiseur">
-<meta property="og:description" content="Spectacles d'hypnose sur scène, animations découverte, street-hypnose, auto-hypnose et formations.">
-<meta property="og:url" content="https://www.hybou.com/">
-<meta property="og:type" content="website">
-<link rel="icon" href="assets/logo-hybou-square.png" type="image/png">
-<link rel="apple-touch-icon" href="assets/logo-hybou-square.png">
-<link rel="stylesheet" href="assets/style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>HYBOU – Site en construction</title>
+<style>
+  :root { --bg:#0f1226; --fg:#f2f3fa; --muted:#a9adc9; --accent:#8b7cff; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  html, body { height:100%; }
+  body {
+    display:flex; align-items:center; justify-content:center;
+    background: radial-gradient(circle at 30% 20%, #232857 0%, var(--bg) 60%);
+    color:var(--fg);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    text-align:center; padding:24px;
+  }
+  main { max-width:560px; }
+  .logo { font-size:clamp(3rem, 12vw, 5.5rem); font-weight:800; letter-spacing:.12em; }
+  .bar { width:64px; height:4px; background:var(--accent); border-radius:2px; margin:20px auto 28px; }
+  h1 { font-size:clamp(1.4rem, 5vw, 2rem); font-weight:600; margin-bottom:14px; }
+  p { color:var(--muted); line-height:1.6; font-size:1.05rem; }
+</style>
 </head>
-<body id="top">
-
-<a href="#main" class="skip-link">Aller au contenu</a>
-
-<header class="site-header">
-  <div class="container header-inner">
-    <a href="#top" class="brand">
-      <img src="assets/logo-hybou-square.png" alt="" class="brand-mark" aria-hidden="true">
-      <span class="brand-word">HYBOU<span class="brand-sub">Hypnose</span></span>
-    </a>
-
-    <nav class="main-nav" id="main-nav">
-      <a href="#prestations"><span>01</span>Prestations</a>
-      <a href="#formations"><span>02</span>Formations</a>
-      <a href="#galerie"><span>03</span>Galerie</a>
-      <a href="#a-propos"><span>04</span>À propos</a>
-      <a href="#contact"><span>05</span>Contact</a>
-    </nav>
-
-    <div class="header-contact">
-      <a href="tel:0645924526" class="header-phone">06 45 92 45 26<span class="arrow">↗</span></a>
-      <a href="mailto:hybouvier@gmail.com" class="header-phone">hybouvier@gmail.com<span class="arrow">↗</span></a>
-    </div>
-
-    <button class="nav-toggle" id="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
-      <span></span><span></span><span></span>
-    </button>
-  </div>
-</header>
-
-<main id="main">
-
-  <section class="hero">
-    <div class="container hero-grid">
-
-      <div class="hero-content">
-        <p class="kicker">Spectacle — Animation — Formation</p>
-        <h1>L'hypnose comme<br>vous ne l'avez<br>jamais vue.</h1>
-        <p class="lede">Jérémy Bouvier conçoit des spectacles, animations et formations d'hypnose pensés pour surprendre, faire rire et faire réfléchir — sur scène, dans la rue, ou en formation.</p>
-
-        <div class="hero-actions">
-          <a href="#prestations" class="btn btn-primary">Voir les prestations</a>
-          <a href="#contact" class="link-arrow">Me contacter <span>→</span></a>
-        </div>
-
-        <dl class="hero-stats">
-          <div>
-            <dt>2011</dt>
-            <dd>Naissance de Kimi Bouvier</dd>
-          </div>
-          <div>
-            <dt>Duo</dt>
-            <dd>Père–fils sur scène</dd>
-          </div>
-          <div>
-            <dt>6</dt>
-            <dd>Formats de prestation</dd>
-          </div>
-        </dl>
-      </div>
-
-      <div class="hero-visual">
-        <div class="frame frame-hero frame-artwork">
-          <span class="corner tl"></span><span class="corner tr"></span>
-          <span class="corner bl"></span><span class="corner br"></span>
-          <img src="assets/logo-hybou.png" alt="Illustration du hibou Hybou, emblème de Jérémy Bouvier" class="frame-artwork-img">
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <section class="manifesto">
-    <div class="container">
-      <p class="kicker center">Positionnement</p>
-      <p class="manifesto-text">Pas de tour de magie, pas de mise en scène forcée — juste une exploration sincère de ce que l'esprit sait déjà faire, présentée avec humour et exigence.</p>
-    </div>
-  </section>
-
-  <section id="a-propos" class="about">
-    <div class="container about-grid">
-      <div class="about-text">
-        <p class="kicker">04 — À propos</p>
-        <h2>Jérémy &amp; Kimi Bouvier</h2>
-        <p>Passionné d'hypnose, je conçois des spectacles, animations et formations qui bousculent les idées reçues : ludiques, bienveillants et toujours surprenants.</p>
-        <p>Sur scène, je suis accompagné de mon fils <strong>Kimi Bouvier</strong>, le plus jeune hypnotiseur de spectacle sur scène — un duo père-fils qui séduit tous les publics, petits et grands.</p>
-        <p>Spectacle, animation d'entreprise, rencontre improvisée dans la rue ou formation : l'objectif reste le même, faire vivre une expérience mémorable.</p>
-      </div>
-
-      <div class="about-fact">
-        <span class="fact-year">2011</span>
-        <p>C'est l'année de naissance de Kimi, notre plus jeune hypnotiseur de France sur scène.</p>
-      </div>
-    </div>
-  </section>
-
-  <section id="prestations" class="listing">
-    <div class="container">
-      <p class="kicker">01 — Prestations</p>
-      <h2>Ce que je propose sur scène et hors scène</h2>
-
-      <ol class="index-list">
-        <li>
-          <span class="num">01</span>
-          <div class="index-content">
-            <h3>Spectacle d'hypnose sur scène</h3>
-            <p>Un show interactif, drôle et bluffant, où le public devient acteur du spectacle. Idéal pour soirées, galas, comités d'entreprise et évènements privés.</p>
-          </div>
-        </li>
-        <li>
-          <span class="num">02</span>
-          <div class="index-content">
-            <h3>Animation découverte</h3>
-            <p>Une animation courte et accessible pour faire découvrir l'hypnose à un groupe, en entreprise ou lors d'un évènement, dans une ambiance conviviale.</p>
-          </div>
-        </li>
-        <li>
-          <span class="num">03</span>
-          <div class="index-content">
-            <h3>Street-hypnose</h3>
-            <p>L'hypnose descend dans la rue : des interactions spontanées et impressionnantes, filmées ou en direct, pour surprendre le public là où il ne s'y attend pas.</p>
-          </div>
-        </li>
-        <li>
-          <span class="num">04</span>
-          <div class="index-content">
-            <h3>Auto-hypnose</h3>
-            <p>Des séances individuelles pour apprendre à mobiliser ses propres ressources : gestion du stress, confiance en soi, sommeil, sérénité au quotidien.</p>
-          </div>
-        </li>
-      </ol>
-    </div>
-  </section>
-
-  <section id="formations" class="listing listing-alt">
-    <div class="container">
-      <p class="kicker">02 — Formations</p>
-      <h2>Apprendre l'hypnose avec Jérémy Bouvier</h2>
-
-      <ol class="index-list">
-        <li>
-          <span class="num">01</span>
-          <div class="index-content">
-            <h3>Formation hypnose spectacle</h3>
-            <p>Une formation complète pour apprendre les techniques et la mise en scène de l'hypnose de spectacle, et monter sur scène en toute confiance.</p>
-          </div>
-        </li>
-        <li>
-          <span class="num">02</span>
-          <div class="index-content">
-            <h3>Formation auto-hypnose</h3>
-            <p>Une formation pour apprendre à pratiquer et transmettre les techniques d'auto-hypnose, à titre personnel ou professionnel.</p>
-          </div>
-        </li>
-      </ol>
-    </div>
-  </section>
-
-  <section id="galerie" class="gallery">
-    <div class="container">
-      <p class="kicker">03 — Galerie</p>
-      <h2>Photos &amp; vidéos</h2>
-      <p class="section-note">Cette section accueillera bientôt des photos de spectacle et de courts montages vidéo.</p>
-
-      <div class="gallery-grid">
-        <div class="frame frame-gallery">
-          <span class="corner tl"></span><span class="corner br"></span>
-          <span class="frame-caption">À venir</span>
-        </div>
-        <div class="frame frame-gallery">
-          <span class="corner tl"></span><span class="corner br"></span>
-          <span class="frame-caption">À venir</span>
-        </div>
-        <div class="frame frame-gallery">
-          <span class="corner tl"></span><span class="corner br"></span>
-          <span class="frame-caption">À venir</span>
-        </div>
-        <div class="frame frame-gallery">
-          <span class="corner tl"></span><span class="corner br"></span>
-          <span class="frame-caption">À venir</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="contact" class="contact">
-    <div class="container contact-grid">
-      <div>
-        <p class="kicker">05 — Contact</p>
-        <h2>Parlons de votre projet</h2>
-        <p class="section-note">Une question, un projet, une demande de devis ? Écrivez-moi directement.</p>
-
-        <div class="contact-links">
-          <a href="tel:0645924526" class="link-arrow link-arrow-lg">06 45 92 45 26 <span>→</span></a>
-          <a href="mailto:hybouvier@gmail.com" class="link-arrow link-arrow-lg">hybouvier@gmail.com <span>→</span></a>
-        </div>
-      </div>
-
-      <div class="contact-address">
-        <p class="kicker">Adresse</p>
-        <address>
-          280 chemin de Clangy<br>
-          71110 Saint-Julien-de-Jonzy
-        </address>
-      </div>
-    </div>
-  </section>
-
+<body>
+<main>
+  <div class="logo">HYBOU</div>
+  <div class="bar"></div>
+  <h1>Site en construction</h1>
+  <p>Notre nouveau site arrive bientôt.<br>Merci de votre patience et à très vite !</p>
 </main>
-
-<footer class="site-footer">
-  <div class="container footer-inner">
-    <span class="footer-brand"><img src="assets/logo-hybou-square.png" alt="" class="footer-mark" aria-hidden="true">Hybou — Hypnose <span id="year"></span></span>
-    <a href="#top" class="footer-top">Haut de page ↑</a>
-  </div>
-</footer>
-
-<script>
-  document.getElementById('year').textContent = new Date().getFullYear();
-  const toggle = document.getElementById('nav-toggle');
-  const nav = document.getElementById('main-nav');
-  toggle.addEventListener('click', () => {
-    const open = nav.classList.toggle('open');
-    toggle.setAttribute('aria-expanded', open);
-  });
-  nav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
-    nav.classList.remove('open');
-    toggle.setAttribute('aria-expanded', false);
-  }));
-</script>
-
 </body>
 </html>
